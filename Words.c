@@ -11,7 +11,7 @@ int main()
       {
           if(s[i]==' '&& s[i+1]!=' ') word++;
       }
-
+//to avoid the white spaces
       if(s[i-1]==' ')word--;
       if(s[0]==' ')word--;
       if(s[0]=='\0')word--;
